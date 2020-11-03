@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff21607a-638e-4f66-919b-042785321960" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1jYuQxSalWLjvrNsMl1BXgpJB92" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../viikko2" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'ohtuesimerkki'">
+    <configuration name="StatisticsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ohtuesimerkki.StatisticsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'ohtuesimerkki'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ohtuesimerkki.*&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'ohtuesimerkki'" />
+        <item itemvalue="Gradle.StatisticsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff21607a-638e-4f66-919b-042785321960" name="Default Changelist" comment="" />
+      <created>1603993334141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603993334141</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="658" y="330" width="595" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604053020475">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="658" y="330" width="595" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1054@0.0.1920.1054" timestamp="1604053020475" />
+    <state x="743" y="285" width="426" height="479" key="FileChooserDialogImpl" timestamp="1604333975732">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="743" y="285" width="426" height="479" key="FileChooserDialogImpl/0.0.1920.1054@0.0.1920.1054" timestamp="1604333975732" />
+    <state width="938" height="281" key="GridCell.Tab.0.bottom" timestamp="1604058303640">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="938" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1604058303640" />
+    <state width="938" height="281" key="GridCell.Tab.0.center" timestamp="1604058303639">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="938" height="281" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1604058303639" />
+    <state width="938" height="281" key="GridCell.Tab.0.left" timestamp="1604058303639">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="938" height="281" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1604058303639" />
+    <state width="938" height="281" key="GridCell.Tab.0.right" timestamp="1604058303640">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="938" height="281" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1604058303640" />
+    <state x="526" y="127" width="859" height="794" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604054590703">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="526" y="127" width="859" height="794" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1054@0.0.1920.1054" timestamp="1604054590703" />
+  </component>
+</project>
