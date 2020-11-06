@@ -4,15 +4,18 @@ import ohtu.verkkokauppa.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
 
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 
+        // kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
+
         Kauppa kauppa = ctx.getBean(Kauppa.class);
 
-        // kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
         kauppa.aloitaAsiointi();
         kauppa.lisaaKoriin(1);
         kauppa.lisaaKoriin(3);
@@ -30,7 +33,9 @@ public class Main {
 
         // kirjanpito
 
-        for (String tapahtuma : ctx.getBean(Kirjanpito.class).getTapahtumat()) {
+        ArrayList<String> kirjanpito = ctx.getBean(Kirjanpito.class).getTapahtumat();
+
+        for (String tapahtuma : kirjanpito) {
             System.out.println(tapahtuma);
         }
     }
