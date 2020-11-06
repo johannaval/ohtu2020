@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Component
 public class Kauppa {
 
+    private String kaupanTili;
+
+    private Ostoskori ostoskori;
+    
     @Autowired
     private Varasto_rajapinta varasto;
 
@@ -15,12 +19,6 @@ public class Kauppa {
 
     @Autowired
     private Viitegeneraattori_rajapinta viitegeneraattori;
-
-    @Autowired
-    private String kaupanTili;
-
-    @Autowired
-    private Ostoskori ostoskori;
 
 
     public Kauppa(Varasto varasto, Pankki pankki, Viitegeneraattori viitegeneraattori) {
@@ -49,7 +47,7 @@ public class Kauppa {
     }
 
     public boolean tilimaksu(String nimi, String tiliNumero) {
-        
+
         int viite = viitegeneraattori.uusi();
         int summa = ostoskori.hinta();
 
