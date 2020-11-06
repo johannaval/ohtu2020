@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b0717d0-4d66-4b56-84d7-ba3c9ec6f2e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Kirjanpito_rajapinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Pankki_rajapinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Varasto_rajapinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verkkokauppa1/src/main/java/ohtu/verkkokauppa/Viitegeneraattori_rajapinta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../viikko1/NhlStatistics1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../viikko1/NhlStatistics1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
