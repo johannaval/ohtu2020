@@ -10,7 +10,7 @@ public class Kauppa {
     private String kaupanTili;
 
     private Ostoskori ostoskori;
-    
+
     @Autowired
     private Varasto_rajapinta varasto;
 
@@ -20,10 +20,9 @@ public class Kauppa {
     @Autowired
     private Viitegeneraattori_rajapinta viitegeneraattori;
 
-
     public Kauppa(Varasto varasto, Pankki pankki, Viitegeneraattori viitegeneraattori) {
 
-        kaupanTili = "33333-44455";
+        this.kaupanTili = "33333-44455";
     }
 
     public void aloitaAsiointi() {
