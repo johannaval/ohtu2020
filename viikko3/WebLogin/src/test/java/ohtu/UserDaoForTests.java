@@ -32,14 +32,17 @@ public class UserDaoForTests implements UserDao {
 
     @Override
     public void add(User user) {
+
         users.add(user);
     }
 
     public void setUsers(List<User> users) {
+
         this.users = users;
     }
 
     public List<User> getUsers() {
+
         return users;
     }
 }
