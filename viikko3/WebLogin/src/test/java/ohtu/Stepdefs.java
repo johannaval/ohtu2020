@@ -106,6 +106,7 @@ public class Stepdefs {
 
     @When("a valid username {string} and password {string} and matching password confirmation are entered")
     public void validUsernameAndValidMatchingPasswordAreEntered(String username, String password) {
+
         createNewWith(username, password, password);
     }
 
@@ -137,6 +138,33 @@ public class Stepdefs {
     public void aValidUsernameAndValidPasswordAndNotMatchingPasswordConfirmationAreEntered(String username, String password, String confirmationPasswold) {
 
         createNewWith(username, password, confirmationPasswold);
+    }
+
+
+    @Given("user with username {string} with password {string} is successfully created")
+    public void successfullyCreatedUserCanLogIn(String username, String password) {
+
+        newUserSelected();
+        createNewWith(username, password, password);
+    }
+
+    @When("log in with correct username {string} and password {string} are given")
+    public void logInWithCorrectUsernameAndPasswordAreGiven(String username, String password) {
+
+        logInWith(username, password);
+    }
+
+    @Given("user with username {string} and password {string} is tried to be created")
+    public void creatingDoesNotWorkWithInvalidUsernameOrPassword(String username, String password) {
+
+        newUserSelected();
+        createNewWith(username, password, password);
+    }
+
+    @When("log in with not valid username {string} and password {string} does not work")
+    public void logInWithNotValidUsernameAndPasswordDoesNotWork(String username, String password) {
+
+        logInWith(username, password);
     }
 }
 
