@@ -15,6 +15,7 @@ dependencies {
 
 mainClassName = 'ohtu.Main'
 
+
 jar {
     manifest {
         attributes 'Main-Class': 'ohtu.Main'

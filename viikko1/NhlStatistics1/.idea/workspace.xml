@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec33483d-aa18-4ddf-83cc-adcd9136e998" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom" timestamp="1605028186587">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="933" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1054@0.0.1920.1054" timestamp="1605028186587" />
+    <state width="933" height="281" key="GridCell.Tab.0.center" timestamp="1605028186586">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="933" height="281" key="GridCell.Tab.0.center/0.0.1920.1054@0.0.1920.1054" timestamp="1605028186586" />
+    <state width="933" height="281" key="GridCell.Tab.0.left" timestamp="1605028186585">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="933" height="281" key="GridCell.Tab.0.left/0.0.1920.1054@0.0.1920.1054" timestamp="1605028186585" />
+    <state width="933" height="281" key="GridCell.Tab.0.right" timestamp="1605028186587">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state width="933" height="281" key="GridCell.Tab.0.right/0.0.1920.1054@0.0.1920.1054" timestamp="1605028186587" />
+  </component>
+</project>
