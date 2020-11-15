@@ -21,6 +21,7 @@ public class Kauppa {
     }
 
     public void aloitaAsiointi() {
+
         ostoskori = new Ostoskori();
     }
 

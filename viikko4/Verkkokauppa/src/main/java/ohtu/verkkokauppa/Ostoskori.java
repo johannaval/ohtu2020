@@ -7,14 +7,17 @@ public class Ostoskori {
     ArrayList<Tuote> tuotteet;
 
     public Ostoskori() {
+
         tuotteet = new ArrayList<Tuote>();
     }
 
     public void lisaa(Tuote t) {
+
         tuotteet.add(t);
     }
 
     public void poista(Tuote t) {
+
         tuotteet.remove(t);
     }
 

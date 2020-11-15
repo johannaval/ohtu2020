@@ -20,15 +20,18 @@ public class Tuote {
     }
 
     public int getId() {
+
         return id;
     }
 
     public int getHinta() {
+
         return hinta;
     }
 
     @Override
     public String toString() {
+
         return nimi;
     }            
     
