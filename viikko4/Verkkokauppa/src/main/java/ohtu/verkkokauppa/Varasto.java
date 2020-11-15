@@ -27,6 +27,7 @@ public class Varasto implements VarastoInterface {
 
     @Override
     public int saldo(int id){
+
         return saldot.get(haeTuote(id));
     }
     
