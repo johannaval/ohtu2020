@@ -16,8 +16,8 @@
 - [Nhlreader](https://github.com/johannaval/ohtu2020/tree/main/viikko3/nhlreader)
 
 [Viikko 4:](https://github.com/johannaval/ohtu2020/tree/main/viikko4)
--[Mockito Demo](https://github.com/johannaval/ohtu2020/tree/main/viikko4/MockitoDemo)
--[Maksukortti Mockito](https://github.com/johannaval/ohtu2020/tree/main/viikko4/MaksukorttiMockito)
--[Verkkokauppa](https://github.com/johannaval/ohtu2020/tree/main/viikko4/Verkkokauppa)
--[IntJoukkoSovellus](https://github.com/johannaval/ohtu2020/tree/main/viikko4/IntJoukkoSovellus)
--[Tennis](https://github.com/johannaval/ohtu2020/tree/main/viikko4/Tennis)
+- [Mockito Demo](https://github.com/johannaval/ohtu2020/tree/main/viikko4/MockitoDemo)
+- [Maksukortti Mockito](https://github.com/johannaval/ohtu2020/tree/main/viikko4/MaksukorttiMockito)
+- [Verkkokauppa](https://github.com/johannaval/ohtu2020/tree/main/viikko4/Verkkokauppa)
+- [IntJoukkoSovellus](https://github.com/johannaval/ohtu2020/tree/main/viikko4/IntJoukkoSovellus)
+- [Tennis](https://github.com/johannaval/ohtu2020/tree/main/viikko4/Tennis)
