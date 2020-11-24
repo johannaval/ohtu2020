@@ -51,10 +51,10 @@ public class Tapahtumankuuntelija implements EventHandler {
         } else if (event.getTarget() == nollaa) {
             Komento komento = komennot.get((Button) event.getTarget());
             komento.suorita();
+            this.edellinen = komento;
 
         } else {
             this.edellinen.peru();
-            this.edellinen = null;
         }
     }
 }

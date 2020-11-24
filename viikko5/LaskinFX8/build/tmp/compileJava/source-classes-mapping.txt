@@ -1,16 +1,16 @@
 laskin/Erotus.java
  laskin.Erotus
-laskin/Main.java
- laskin.Main
+laskin/Tapahtumankuuntelija.java
+ laskin.Tapahtumankuuntelija
 laskin/Sovelluslogiikka.java
  laskin.Sovelluslogiikka
 laskin/Nollaa.java
  laskin.Nollaa
 laskin/Komento.java
  laskin.Komento
-laskin/Summaa.java
- laskin.Summaa
-laskin/Tapahtumankuuntelija.java
- laskin.Tapahtumankuuntelija
 laskin/GraafinenLaskin.java
  laskin.GraafinenLaskin
+laskin/Summaa.java
+ laskin.Summaa
+laskin/Main.java
+ laskin.Main
