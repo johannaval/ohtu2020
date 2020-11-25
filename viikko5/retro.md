@@ -18,4 +18,5 @@ liittyä myös asioita, jotka eivät ole riippuvaisia tiimin jäsenistä tai hei
 samantyyppisten aiheiden mukaan, ja lopuksi äänestetään, mistä kootuista asioista halutaan keskustella enemmän.
 
 http://retrospectivewiki.org/index.php?title=Start,_Stop,_Continue,_More_of,_Less_of_Wheel
+
 http://retrospectivewiki.org/index.php?title=Glad,_Sad,_Mad
