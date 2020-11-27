@@ -7,15 +7,11 @@ public class Main {
         String url = "https://nhlstatisticsforohtu.herokuapp.com/players.txt";
 
         Statistics stats = new Statistics(new PlayerReaderImpl(url));
+        QueryBuilder query = new QueryBuilder();
 
-        Matcher m = new And(
-                new HasAtLeast(50, "points"),
-                new Or(
-                        new PlaysIn("NYR"),
-                        new PlaysIn("NYI"),
-                        new PlaysIn("BOS")
-                )
-        );
+        Matcher m = query.playsIn("NYR")
+                .hasAtLeast(5, "goals")
+                .hasFewerThan(10, "goals").pino();
 
         for (Player player : stats.matches(m)) {
             System.out.println(player);
