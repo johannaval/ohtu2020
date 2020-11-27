@@ -2,21 +2,22 @@ package statistics.matcher;
 
 import statistics.Player;
 
-public class And implements Matcher {
+public class Or implements Matcher {
 
     public Matcher[] list;
 
-    public And(Matcher... matchers) {
-        this.list = matchers;
+    public Or(Matcher... matcher) {
+        this.list = matcher;
     }
 
     @Override
     public boolean matches(Player player) {
         for (Matcher matcher : list) {
-            if (matcher.matches(player)==false) {
-                return false;
+            if (matcher.matches(player)) {
+                return true;
             }
         }
-        return true;
+        return false;
     }
 }
+
