@@ -6,13 +6,13 @@ public class Or implements Matcher {
 
     public Matcher[] list;
 
-    public Or(Matcher... matcher) {
-        this.list = matcher;
+    public Or(Matcher... matchers) {
+        this.list = matchers;
     }
 
     @Override
     public boolean matches(Player player) {
-        for (Matcher matcher : list) {
+        for (Matcher matcher : this.list) {
             if (matcher.matches(player)) {
                 return true;
             }

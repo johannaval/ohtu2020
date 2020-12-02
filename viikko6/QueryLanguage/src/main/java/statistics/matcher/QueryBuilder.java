@@ -12,7 +12,9 @@ public class QueryBuilder {
     }
 
     public Matcher pino() {
-        return this.pino;
+        Matcher newPino = this.pino;
+        this.pino = new All();
+        return newPino;
     }
 
     public QueryBuilder hasFewerThan(int value, String category) {
@@ -27,6 +29,11 @@ public class QueryBuilder {
 
     public QueryBuilder playsIn(String team) {
         this.pino = new And(new PlaysIn(team), pino);
+        return this;
+    }
+
+    public QueryBuilder oneOf(Matcher... matchers) {
+        this.pino = new Or(matchers);
         return this;
     }
 }

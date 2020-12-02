@@ -16,10 +16,10 @@ public class HasAtLeast implements Matcher {
     }
 
     @Override
-    public boolean matches(Player p) {
+    public boolean matches(Player player) {
         try {
-            Method method = p.getClass().getMethod(fieldName);
-            int playersValue = (Integer) method.invoke(p);
+            Method method = player.getClass().getMethod(fieldName);
+            int playersValue = (Integer) method.invoke(player);
             return playersValue >= value;
 
         } catch (Exception ex) {
