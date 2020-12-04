@@ -10,3 +10,6 @@
 [Viikko 4:](https://github.com/johannaval/ohtu2020/tree/main/viikko4)
 
 [Viikko 5:](https://github.com/johannaval/ohtu2020/tree/main/viikko5)
+
+[Viikko 6:](https://github.com/johannaval/ohtu2020/tree/main/viikko6)
+
