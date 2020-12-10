@@ -1,4 +1,4 @@
-# Ohjelmistotuotanto 2020
+last_quarter_moon_with_face :last_quarter_moon_with_face: # Ohjelmistotuotanto 2020 last_quarter_moon_with_face :first_quarter_moon_with_face:
 
 [Viikko 1: tehtävät 2-13](https://github.com/johannaval/ohtu-2020-viikko1)
 - [loput tehtävät viikolta 1.](https://github.com/johannaval/ohtu2020/tree/main/viikko1)
@@ -12,4 +12,6 @@
 [Viikko 5:](https://github.com/johannaval/ohtu2020/tree/main/viikko5)
 
 [Viikko 6:](https://github.com/johannaval/ohtu2020/tree/main/viikko6)
+
+[Viikko 7:](https://github.com/johannaval/ohtu2020/tree/main/viikko7)
 
